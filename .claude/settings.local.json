@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(ANTHROPIC_API_KEY=\"\" python3 *)",
+      "PowerShell(wsl ls -la /mnt/c/ai_proj)",
+      "PowerShell(wsl bash -c \"cd /mnt/c/ai_proj && git init && git add . && git commit -m 'Initial commit'\")"
+    ]
+  }
+}
